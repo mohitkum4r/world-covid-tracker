@@ -25,7 +25,7 @@ You will also see any lint errors in the console.
 
 ### For the not so nerd about the code
 
-Checkout the website [Quollab covid tracker](https://quollab-covid-tracker.netlify.app).
+Checkout the website [World covid tracker](https://covid-tracker-mohit.netlify.app/).
 
 As of now i haven't made the table responsive due to lack of time. But will surely make it happen in a few days.
 
