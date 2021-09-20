@@ -1,0 +1,215 @@
+#main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td{
+  border-color: #7c0f2e !important;
+  padding: 0 15px;
+  margin-right: 0.25rem;
+  align-items: center;
+}
+th{
+  border-color: #7c0f2e !important;
+}
+table{
+  border-color: #7c0f2e !important; 
+  grid-template-columns: repeat(14, auto);
+  align-items: center;
+  overflow: scroll;
+  color: #6c757d;
+
+}
+
+.pagination{
+  color:#6c757d;
+  align-items: center;
+}
+.pagination>button {
+  background-color: transparent;
+  color: #ff073a;
+  border: none;
+}
+.pagination>select{
+  background-color: transparent;
+  color: #007bff;
+  align-items: center;
+  outline: 0;
+  border-width: 0 0 2px;
+}
+#filter>input{
+  background-color: transparent;
+  color: #ff073a;
+  outline: 0;
+  border-width: 0 0 2px;
+}
+.pagination>span>input {
+  background-color: transparent;
+  color: #ff073a;
+  outline: 0;
+  border-width: 0 0 2px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  
+  background-color: rgb(22,22, 37) !important;
+}
+#root{
+  
+  background-color: rgb(22,22, 37) !important;
+}
+
+*{
+  font-family: 'Inconsolata', monospace;
+}
+
+#root path{
+  color: aliceblue;
+}
+
+.FepSJ table{
+  color: #6c757d;
+  width: 100%;
+  float: left;
+  overflow-x:auto;
+  text-align: center;
+}
+
+.totalCases{
+  background-color: red;
+}
+
+.country{
+  size: 10rem;
+}
+
+#cards{
+  color: #6c757d;
+  width:90%;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+
+}
+
+.ci{
+  color:#ff073a;
+  width:100%;
+  padding: 30px;
+  background-color: rgb(255,255,255,0.2);
+  /* opacity: inherit; */
+  margin: 2px;
+  border-radius: 10%;
+}
+
+.header{
+  text-align: center;;
+  margin-bottom: 30px;
+}
+
+.val{
+  text-align: center;
+  font-size:25px;
+}
+
+#active{
+  color: #007bff;
+}
+
+#recovered{
+  color:#28a745 !important;
+}
+
+#deceased{
+  color: grey;
+  background-color: transparent;
+  background-color: rgb(255,255,255,0.2);
+  /* opacity: inherit; */
+  margin: 2px;
+  border-radius: 10%;
+}
+
+h4{
+  text-align: center;
+}
+
+h5{
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1408px) {
+  #cards{
+    display: none;
+  }
+  div#mapDesktop{
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-width: 1408px) {
+  #mobileMap{
+    display: none;
+  }
+}
+/* 
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  flex-direction: column;
+}
+/* Zebra striping */
+/* tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+} */ 
